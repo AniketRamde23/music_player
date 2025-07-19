@@ -1,0 +1,102 @@
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Helvetica, Arial, sans-serif;
+      background-color: #f0f2f5;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      gap: 50px;
+      padding: 20px;
+    }
+    .left-box {
+      max-width: 400px;
+    }
+    .left-box h1 {
+      font-size: 56px;
+      color: #1877f2;
+      margin-bottom: 10px;
+    }
+    .left-box a {
+      text-decoration: none;
+      color: #1877f2;
+    }
+    .left-box p {
+      font-size: 24px;
+      line-height: 1.5;
+    }
+    .right-box {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      width: 350px;
+      text-align: center;
+    }
+    .right-box input {
+      width: 100%;
+      padding: 14px;
+      margin: 6px 0;
+      font-size: 16px;
+      border: 1px solid #dddfe2;
+      border-radius: 6px;
+    }
+    .login-btn {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      background-color: #1877f2;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .forgot {
+      display: block;
+      margin: 12px 0;
+      font-size: 14px;
+      color: #1877f2;
+      text-decoration: none;
+    }
+    hr {
+      margin: 20px 0;
+      border: 0.5px solid #dddfe2;
+    }
+    .create-btn {
+      background-color: #42b72a;
+      color: white;
+      padding: 12px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      width: 60%;
+      cursor: pointer;
+    }
+    .bottom-link {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #1c1e21;
+    }
+    .bottom-link a {
+      color: #000;
+      text-decoration: none;
+    }
+    .link-btn {
+      display: inline-block;
+      background-color: #42b72a;
+      color: white;
+      padding: 12px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 6px;
+      width: 60%;
+      text-align: center;
+      text-decoration: none;
+      margin-top: 10px;
+    }
